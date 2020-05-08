@@ -34,6 +34,12 @@ gem "bulma-rails", "~> 0.8.0"
 # Simple forms
 gem 'simple_form'
 
+# View helper for grabbing Gravatar images
+gem 'gravatar_image_tag'
+
+# Flexible authentication solution for Rails with Warden
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
